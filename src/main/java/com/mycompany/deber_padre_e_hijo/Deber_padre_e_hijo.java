@@ -43,7 +43,7 @@ public class Hijo{
 }
             
     public static void main(String[] args) {
-       Deber_padre_e_hijo padre = new Deber_padre_e_hijo("Carlos","Garcia ",46);
+       Deber_padre_e_hijo padre = new Deber_padre_e_hijo("Manuel","Garcia ",46);
        Deber_padre_e_hijo.Hijo son =  padre.new Hijo("David ",5110);
                 
         padre.muestra();
